@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/index1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/index2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/index3"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/index4"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/index5"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/index6"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/index7"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/index8"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/index9"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/index10"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/index11"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/index12"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/viuend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btPause"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/boxH"
+            android:padding="@dimen/padding"
+            android:text="pause"
+            android:textSize="@dimen/texSiz" />
+
+        <Button
+            android:id="@+id/btReset"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/boxH"
+            android:padding="@dimen/padding"
+            android:text="reset"
+            android:textSize="@dimen/texSiz" />
+
+    </LinearLayout>
+
+
+    <!--
+    <TextView
+        android:layout_height="@dimen/TitleH"
+        android:layout_width="match_parent"
+        android:text="bubbleSort(array, size)"
+        android:textColor="@color/colorB"
+        android:textSize="@dimen/TitleSize"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+
+        />
+       -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginTop="1000000dp"
+        android:paddingTop="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2000dp"
+            android:layout_margin="@dimen/margin"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/boxH"
+                android:layout_margin="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:paddingTop="15dp"
+                android:text="towerofHanoy(int n, char a, char b, char c)"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/texSiz" />
+
+            <TextView
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/boxH"
+                android:layout_margin="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:text="if (n == 0)"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/texSiz" />
+
+            <TextView
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/boxH"
+                android:layout_margin="@dimen/margin"
+                android:paddingLeft="25dp"
+                android:text="return"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/texSiz" />
+
+            <TextView
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/boxH"
+                android:layout_margin="@dimen/margin"
+                android:paddingLeft="0dp"
+                android:text="toweofHanoy(n - 1, a, c, b)"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/texSiz" />
+
+            <TextView
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/boxH"
+                android:layout_margin="@dimen/margin"
+                android:paddingLeft="0dp"
+                android:text="towerofHanoy(n - 1, a, b, c)"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/texSiz" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.MessMantech.mahmood.algo">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4797728656934365~7099600281" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bubble_sort"
+            android:label="Bubble Sort Algorithm" />
+        <activity
+            android:name=".Simulation_bsort"
+            android:label="Bubble Sort Algorithm" />
+        <activity
+            android:name=".Selection_Sort"
+            android:label="Selection Sort Algorithm" />
+        <activity
+            android:name=".Simulation_Selection"
+            android:label="Selection Sort Algorithm" />
+        <activity
+            android:name=".Insertion_Sort"
+            android:label="Insertion Sort Algorithm" />
+        <activity
+            android:name=".simulation_insertion"
+            android:label="Insertion Sort Algorithm" />
+        <activity
+            android:name=".Heap_sort"
+            android:label="Heap Sort Algorithm" />
+        <activity
+            android:name=".Simulation_Heap_sort"
+            android:label="Heap Sort Algorithm" />
+        <activity
+            android:name=".Merge_sort"
+            android:label="Merge Sort Algorithm" />
+        <activity
+            android:name=".Simulation_merge"
+            android:label="Merge Sort Algorithm" />
+        <activity
+            android:name=".Quick_sort"
+            android:label="Quick Sort Algorithm" />
+        <activity
+            android:name=".Simulation_quick"
+            android:label="Quick Sort Algorithm" />
+        <activity
+            android:name=".Linear_search"
+            android:label="Linear search Algorithm" />
+        <activity
+            android:name=".Simulation_linear"
+            android:label="Linear Search Algorithm" />
+        <activity
+            android:name=".Binary_search"
+            android:label="Binary Search Algorithm" />
+        <activity
+            android:name=".Simulation_binary"
+            android:label="Binary Search Algorithm" />
+        <activity
+            android:name=".BFS"
+            android:label="Breadth Search Algorithm" />
+        <activity
+            android:name=".Simulation_bfs"
+            android:label="Breadth Firast Search Algorithm" />
+        <activity
+            android:name=".DFS"
+            android:label="Depth First Search Algorithm" />
+        <activity
+            android:name=".Simulation_dfs"
+            android:label="Depth First Search Algorithm" />
+        <activity
+            android:name=".Dijkstra"
+            android:label="Dijkstra&apos;s Algorithm" />
+        <activity
+            android:name=".Simulation_Dijkstra"
+            android:label="Dijkstra&apos;s Algorithm" />
+        <activity
+            android:name=".TowerOfHanoy"
+            android:label="Tower Of Hanoy" />
+        <activity
+            android:name=".Simulation_toh"
+            android:label="Tower Of Hanoy" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".About"></activity>
+    </application>
+
+</manifest>

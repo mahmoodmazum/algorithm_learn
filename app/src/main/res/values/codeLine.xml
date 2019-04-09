@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TitleSize">32sp</dimen>
+    <dimen name="TitleH">36sp</dimen>
+    <dimen name="TitleW">121sp</dimen>
+    <dimen name="texSiz">16sp</dimen>
+</resources>

@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Algorithm Learn</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4797728656934365/9151048551</string>
+
+    <string name="BubbleDes">
+        Bubble sort, sometimes referred to as sinking sort,
+        is a simple sorting algorithm that repeatedly steps through
+        the list to be sorted, compares each pair of adjacent items and swaps them
+        if they are in the wrong order. The pass through the list is repeated
+        until no swaps are needed, which indicates that the
+        list is sorted. The algorithm, which is a comparison sort, is named for the way smaller or
+        larger elements "bubble" to the top of the list.
+
+    </string>
+    <string name="SelectDes">Selection sort is a sorting algorithm,
+        specifically an in-place comparison sort.selection sort is a sorting algorithm,
+        specifically an in-place comparison sort. \n
+        The algorithm divides the input list into two parts: the sublist of items already sorted,
+        which is built up from left to right at the front (left) of the list, and the sublist of items remaining to be sorted that
+        occupy the rest of the list. Initially, the sorted sublist is empty and the unsorted sublist is the entire input list.
+        The algorithm proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted sublist,
+        exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries
+        one element to the right.
+    </string>
+    <string name="InsertDes">Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one
+        item at a time.It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or
+        merge sort.\n
+        Insertion sort iterates, consuming one input element each repetition, and growing a sorted output list. At each iteration,
+        insertion sort removes one element from the input data, finds the location it belongs within the sorted list, and inserts it
+        there. It repeats until no input elements remain. \n
+        Sorting is typically done in-place, by iterating up the array, growing the sorted list behind it. At each array-position, it
+        checks the value there against the largest value in the sorted list (which happens to be next to it, in the previous array-position
+        checked). If larger, it leaves the element in place and moves to the next. If smaller, it finds the correct position within the sorted list,
+        shifts all the larger values up to make a space, and inserts into that correct position.
+    </string>
+    <string name="HeapDes">Heapsort is a comparison-based sorting algorithm. Heapsort can be thought of as an improved selection sort: like that algorithm,
+    it divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the largest element and moving that
+    to the sorted region. \n
+    The heapsort algorithm can be divided into two parts. \n
+    In the first step, a heap is built out of the data. The heap is often placed in an array with the layout of a complete binary tree. The complete binary tree maps
+    the binary tree structure into the array indices; each array index represents a node; the index of the nodes parent, left child branch, or right child branch are simpleexpressions. \n
+    In the second step, a sorted array is created by repeatedly removing the largest element from the heap (the root of the heap), and inserting it into the array. The heap
+    is updated after each removal to maintain the heap property. Once all objects have been removed from the heap, the result is a sorted array. \n
+    Heapsort can be performed in place. The array can be split into two parts, the sorted array and the heap. The storage of heaps as arrays is diagrammed here.
+</string>
+
+    <string name="QuickDes">Quicksort is an efficient sorting algorithm, serving as a systematic method for placing the elements of an array in order.
+        Developed by Tony Hoare in 1959 and published in 1961, it is still a commonly used algorithm for sorting. When implemented well
+        , it can be about two or three times faster than its main competitors, merge sort and heapsort. \n
+        Quicksort is a comparison sort, meaning that it can sort items of any type for which a "less-than" relation (formally, a total order) is defined.
+        In efficient implementations it is not a stable sort, meaning that the relative order of equal sort items is not preserved. Quicksort can operate in-place on an array,
+        requiring small additional amounts of memory to perform the sorting. \n
+        Quicksort is a divide and conquer algorithm. Quicksort first divides a large array into two smaller sub-arrays: the low elements and the high elements.
+        Quicksort can then recursively sort the sub-arrays. \n
+        The steps are: \n
+        1. Pick an element, called a pivot, from the array. \n
+        2. Partitioning: reorder the array so that all elements with values less than the pivot come before the pivot, while all elements with values greater than the pivot
+        come after it (equal values can go either way). After this partitioning, the pivot is in its final position. This is called the partition operation.  \n
+        3. Recursively apply the above steps to the sub-array of elements with smaller values and separately to the sub-array of elements with greater values.
+    </string>
+
+    <string name="MergeDes">In computer science, merge sort (also commonly spelled mergesort) is an efficient, general-purpose, comparison-based sorting algorithm.
+        Most implementations produce a stable sort, which means that the implementation preserves the input order of equal elements in the sorted output. Mergesort is a
+        divide and conquer algorithm that was invented by John von Neumann in 1945. A detailed description and analysis of bottom-up mergesort appeared in a report by Goldstine
+        and Neumann as early as 1948.\n
+        Conceptually, a merge sort works as follows: \n
+        First, divide the unsorted list into n sublists, each containing 1 element (a list of 1 element is considered sorted). \n
+        Second repeatedly merge sublists to produce new sorted sublists until there is only 1 sublist remaining. This will be
+        the sorted list.
+    </string>
+
+    <string name="LinearDes"> linear search or sequential search is a method for finding a target value within a list. It sequentially checks each element of the list for the target
+        value until a match is found or until all the elements have been searched.</string>
+
+    <string name="BinaryDes">Binary search, also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a
+        target value within a sorted array. Binary search compares the target value to the middle element of the array; if they are unequal, the half in which the target
+        cannot lie is eliminated and the search continues on the remaining half until it is successful. If the search ends with the remaining half being empty, the target is not
+        in the array. \n
+        Binary search works on sorted arrays. Binary search begins by comparing the middle element of the array with the target value. If the target value matches the middle element,
+        its position in the array is returned. If the target value is less than or greater than the middle element, the search continues in the lower or upper half of the array, respectively,
+        eliminating the other half from consideration.
+    </string>
+
+    <string name="BfsDes">Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph,
+        and explores the neighbor nodes first, before moving to the next level neighbours.</string>
+
+    <string name="DfsBes">Depth-first search (DFS) is an algorithm for traversing or searching tree
+        or graph data structures. One starts at the root (selecting some arbitrary node as the root
+        in the case of a graph) and explores as far as possible along each branch before backtracking. \n
+        The DFS algorithm is a recursive algorithm that uses the idea of backtracking. It involves exhaustive
+        searches of all the nodes by going ahead, if possible, else by backtracking. \n
+        Here, the word backtrack means that when you are moving forward and there are no more nodes along
+        the current path, you move backwards on the same path to find nodes to traverse. All the nodes
+        will be visited on the current path till all the unvisited nodes have been traversed after which
+        the next path will be selected.
+
+    </string>
+
+    <string name="DijDes">Dijkstras algorithm is an algorithm for finding the shortest paths between
+        nodes in a graph, which may represent, for example, road networks. The algorithm exists in many
+        variants. Dijkstras original variant found the shortest path between two nodes,[3] but a more
+        common variant fixes a single node as the "source" node and finds shortest paths from the source
+        to all other nodes in the graph, producing a shortest-path tree. \n
+        For a given source node in the graph, the algorithm finds the shortest path between that node
+        and every other.It can also be used for finding the shortest paths from a single
+        node to a single destination node by stopping the algorithm once the shortest path to the destination
+        node has been determined.
+    </string>
+    <string name="TowerDes">The Tower of Hanoi (also called the Tower of Brahma or Lucas  Tower and
+        sometimes pluralized) is a mathematical game or puzzle. It consists of three rods and a number
+        of disks of different sizes, which can slide onto any rod. The puzzle starts with the disks in
+        a neat stack in ascending order of size on one rod, the smallest at the top, thus making a conical shape. \n
+        The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules: \n
+        1. Only one disk can be moved at a time. \n
+        2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack. \n
+        3. No disk may be placed on top of a smaller disk.
+
+    </string>
+
+    <string name="BubbleCom">Bubble sort has worst-case and
+        average complexity both О(n^2), where n is the number of items being sorted.
+        There exist many sorting algorithms, such as merge sort with substantially better worst-case
+        or average complexity of  O(n log n)</string>
+
+    <string name="SelectCom">Selection sort has worst-case and
+        average complexity both О(n^2), where n is the number of items being sorted.
+        There exist many sorting algorithms, such as merge sort with substantially better worst-case
+        or average complexity of  O(n log n)</string>
+
+    <string name="InsertCom">If the inversion count is {\displaystyle O(n)} O(n), then the time complexity of insertion sort is O(n).
+        In worst case, there can be n*(n-1)/2 inversions. The worst case occurs when the array is sorted in reverse order.
+        So the worst case time complexity of insertion sort is  O(n^2).</string>
+
+    <string name="HeapCom">Heap sort is a very efficient sorting algorithm. Heap sort has worst-case and
+        average complexity both {\displaystyle O(n log n)} О(n log n). THe best case complexity is O(n). Worst-case space complexity
+         O(1) auxiliary </string>
+
+    <string name="MergeCom">The constant factors of mergesort are typically not that great though so algorithms with worse complexity can often take less time. The complexity of merge sort is O(nlogn) and NOT O(logn).
+        The divide step computes the midpoint of each of the sub-arrays. Each of this step just takes O(1) time.</string>
+
+    <string name="QuickCom">Quick sort has best-case and
+        average complexity both О(n^log n), where n is the number of items being sorted.
+        The worst-case complexity of Quick sort is O(n^2).
+        </string>
+
+    <string name="LinearCom">Linear search has worst-case and
+        average complexity both О(n), where n is the number of items being searched.
+        The best-case complexity of Quick sort is O(1). \n
+        The worst-case space complexity is O(1).
+        </string>
+
+    <string name="BinaryCom">Binary search has worst-case and
+        average complexity both О(n log n), where n is the number of items being searched.
+        The best-case complexity of Quick sort is O(1). \n
+        The worst-case space complexity is O(1).</string>
+
+    <string name="BfsCom">The time complexity can be expressed as  O(|V|+|E|),
+        since every vertex and every edge will be explored in the worst case.  |V| is
+        the number of vertices and |E| is the number of edges in the graph. Note that
+         O(|E|) may vary between  O(1) and O(|V|^{2}), depending on how sparse the input graph is. \n
+        When the number of vertices in the graph is known ahead of time, and additional data structures
+        are used to determine which vertices have already been added to the queue, the space complexity
+        can be expressed as  O(|V|), where |V| is the cardinality
+        of the set of vertices. This is in addition to the space required for the graph itself, which may vary
+        depending on the graph representation used by an implementation of the algorithm.  \n
+        When working with graphs that are too large to store explicitly (or infinite), it is more practical to
+        describe the complexity of breadth-first search in different terms: to find the nodes that are at distance
+        d from the start node , BFS takes O(bd + 1) time and memory, where b
+        is the "branching factor" of the graph .
+    </string>
+
+    <string name="DfsCom">The time and space analysis of DFS differs according to its application area.
+        In theoretical computer science, DFS is typically used to traverse an entire graph, and takes
+        time Θ(|V| + |E|),[4] linear in the size of the graph. In these applications it also uses space
+        O(|V|) in the worst case to store the stack of vertices on the current search path as well as
+        the set of already-visited vertices. \n
+        Worse case time complexsity  O(|V| + |E|) for explicit graphs traversed without repetition,  O(b^d)
+        for implicit graphs with branching factor b searched to depth d. \n
+        Worst-case space complexity	 O(|V|) if entire graph is traversed without
+        repetition, O(longest path length searched) for implicit graphs without elimination of duplicate nodes
+    </string>
+    <string name="TowerCom">It depends what you mean by "solved". The Tower of Hanoi problem with 3 pegs and n
+        disks takes  2^n - 1 moves to solve, so if you want to enumerate the moves, you obviously can\&#39;t do better
+        than O(2^n) since enumerating k things is O(k).</string>
+
+    <string name="DijCom">It depends on your implementation of Dijkstra’s Algorithm.
+        Here V=total no. of vertices. and E= total no. of edges.Simple or Algorithm is given below with
+        Time complexity of O(V^2).  </string>
+
+
+</resources>

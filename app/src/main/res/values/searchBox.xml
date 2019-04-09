@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="boxH">42sp</dimen>
+    <dimen name="boxW">42sp</dimen>
+    <dimen name="textSize">30sp</dimen>
+    <dimen name="margin">2dp</dimen>
+    <dimen name="padding">4dp</dimen>
+
+</resources>
